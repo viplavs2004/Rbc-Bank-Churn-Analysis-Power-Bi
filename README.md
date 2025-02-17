@@ -8,20 +8,19 @@ The project integrates data from various sources, including customer demographic
 ---
 
 ## Table of Contents
-1. [Project Description](#project-description)
-2. [Data Sources](#data-sources)
-3. [Key Metrics and Measures](#key-metrics-and-measures)
-4. [Power BI Visualizations](#power-bi-visualizations)
-5. [How to Use](#how-to-use)
-6. [Installation](#installation)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Acknowledgements](#acknowledgements)
+- [Project Description](#project-description)
+- [Data Sources](#data-sources)
+- [Key Metrics and Measures](#key-metrics-and-measures)
+- [Power BI Visualizations](#power-bi-visualizations)
+- [How to Use](#how-to-use)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
 
 ---
 
 ## Project Description
-The **Bank Churn Analysis** project is designed to help businesses identify key indicators for customer churn. The analysis helps answer the following questions:
+The Bank Churn Analysis project is designed to help businesses identify key indicators for customer churn. The analysis helps answer the following questions:
 
 - What factors contribute to customers leaving the bank?
 - How does customer behavior vary with attributes like age, balance, and credit score?
@@ -63,46 +62,50 @@ These measures help uncover important patterns, such as the relationship between
 ---
 
 ## Power BI Visualizations
-The project contains the following visualizations:
 
-### 1. Churn Rate Trends
-This line chart displays the **churn rate over time**, helping users identify periods with higher customer churn.
+### 1. Customer Churn Dashboard
+![Customer Churn Dashboard](https://github.com/viplavs2004/Rbc-Bank-Churn-Analysis-Power-Bi/blob/main/RBc%20bank%20Churn%20analysis%20dashboard.png)
 
-![Churn Rate Trends](https://github.com/viplavs2004/Rbc-Bank-Churn-Analysis-Power-Bi/blob/main/RBc%20bank%20Churn%20analysis%20dashboard.png)
+- This dashboard provides an overview of customer churn.
+- Displays key metrics such as total customers, retained customers, and churn rate.
+- Includes a **geographical churn analysis**, showing churn rates across different regions.
+- Users can filter by **Age, Gender, Geography, and Credit Score** to see how different demographics contribute to churn.
 
-### 2. Retention vs. Exited Customers
-This pie chart shows the proportion of **retained vs. exited customers**, providing a quick overview of customer loyalty.
+### 2. Churn Rate and Active vs. Exited Customers
+![Churn Analysis](https://github.com/viplavs2004/Rbc-Bank-Churn-Analysis-Power-Bi/blob/main/RBc%20bank%20Churn%20analysis%20dashboard%202.png)
 
-![Retention vs. Exited Customers](https://github.com/viplavs2004/Rbc-Bank-Churn-Analysis-Power-Bi/blob/main/RBc%20bank%20Churn%20analysis%20dashboard%202.png)
+- Compares the number of active and exited customers.
+- Displays **monthly churn trends** using a line graph.
+- Provides insights into **customer tenure** and how long customers stay before leaving.
+- Users can interact with slicers to filter churn data by **year, region, and credit score**.
 
-### 3. Churn by Customer Demographics
-These bar charts segment **churn data by customer attributes** such as Age, Balance, Credit Score, Tenure, and Geography.
+### 3. Active vs. Exited Customer Comparison
+![Active vs Exited Customers](https://github.com/viplavs2004/Rbc-Bank-Churn-Analysis-Power-Bi/blob/main/RBc%20bank%20Churn%20active%20customer%20exited%202.png)
 
-![Churn by Demographics](https://github.com/viplavs2004/Rbc-Bank-Churn-Analysis-Power-Bi/blob/main/RBc%20bank%20Churn%20active%20customer%20exited%202.png)
-
-### 4. Cohort Analysis
-This visualization shows **how customer churn behavior changes based on the year they joined the bank**, allowing businesses to target specific customer groups.
-
-### 5. Average Customer Attributes
-This section displays average metrics like **Balance, Credit Score, and Tenure** for both exited and retained customers, helping in understanding key differences.
+- Displays side-by-side comparisons of **active vs. exited customers** based on attributes such as balance, tenure, and credit score.
+- Helps identify patterns in the behavior of churned customers vs. retained customers.
+- Users can apply filters for a deeper dive into specific demographics.
 
 ---
 
 ## How to Use
 To interact with the Power BI report and gain insights, follow these steps:
 
-1. **Clone or Download the Repository:** Clone this repository or download it as a ZIP file to your local machine.
-2. **Open Power BI:** Open the Power BI Desktop application.
-3. **Import the Power BI File:** Open the `BankChurn.pbix` file in Power BI.
-4. **Explore the Report:** Use the built-in slicers and filters to interact with the visualizations. You can segment data by demographics such as Age, Geography, Credit Score, etc.
-5. **Customize Visuals:** Modify or extend the Power BI report as needed to meet your specific business needs.
+1. **Clone or Download the Repository:**
+   - Clone this repository or download it as a ZIP file to your local machine.
 
-### Applying Filters
-- **Date Filter:** Allows users to analyze churn trends for a specific time range.
-- **Geography Filter:** Helps in comparing churn rates across different regions.
-- **Credit Score Filter:** Enables understanding of how credit scores impact churn behavior.
-- **Balance Filter:** Helps visualize how account balances relate to retention.
-- **Tenure Filter:** Identifies how long-term customers behave differently compared to new customers.
+2. **Open Power BI:**
+   - Open the Power BI Desktop application.
+
+3. **Import the Power BI File:**
+   - Open the `BankChurn.pbix` file in Power BI.
+
+4. **Explore the Report:**
+   - Use the built-in slicers and filters to interact with the visualizations.
+   - Segment data by demographics such as Age, Geography, and Credit Score.
+
+5. **Customize Visuals:**
+   - Modify or extend the Power BI report as needed to meet your specific business needs.
 
 ---
 
@@ -122,19 +125,14 @@ To interact with the Power BI report and gain insights, follow these steps:
 ## Contributing
 We welcome contributions to enhance the project further. If you would like to contribute, follow these steps:
 
-1. Fork the repository.
-2. Create a new branch (e.g., `feature-branch`).
-3. Make your changes or add new features.
-4. Commit your changes with a descriptive message.
-5. Push the changes to your forked repository.
-6. Open a Pull Request to merge your changes.
+1. **Fork the Repository.**
+2. **Create a new branch** (e.g., `feature-branch`).
+3. **Make your changes** or add new features.
+4. **Commit your changes** with a descriptive message.
+5. **Push the changes** to your forked repository.
+6. **Open a Pull Request** to merge your changes.
 
-Please ensure that your changes are well-documented and add tests for any new features if applicable.
-
----
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Please ensure that your changes are well-documented, and add tests for any new features if applicable.
 
 ---
 
